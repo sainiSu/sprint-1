@@ -1,0 +1,58 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+#container{
+    background: #ffff;
+}
+.flex-container{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+.boxes1{
+    background: #2d4059 ;
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 50px;
+    background:#ea5455;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  .box1:hover {
+    width: 51%;
+    height: 60px;
+    transform: popup;
+  }  
+@keyframes logo{
+    0% {background-color: #ea5455;}
+    50% {background-color: #FF3EA5;}
+}
+.box2{
+    width: 50%;
+    height: 50px;
+    background: #ea5455;
+}
+.box3{
+    width: 15%;
+    background: #ea5455;
+}
+.box3A{
+    background: #f07b3f;
+}
+.text{
+    background: #ffd460;
+}
+h3{
+    font-size: 40px ;
+}
+
